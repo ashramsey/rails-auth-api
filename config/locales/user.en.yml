@@ -1,0 +1,38 @@
+en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "This email has already been taken. Please provide another or sign in."
+              invalid: "Please provide a valid email."
+              blank: "Please fill in your email."
+              not_found: "We could not find your email. Please try again."
+            password: 
+              blank: "Please provide a password."
+              confirmation: "Your password did not match. Please confirm your password."
+              too_short: "Passwords must have a minimum of 6 characters."
+  user:
+    errors:
+      signin:
+        email_not_found: 
+          title: Email Not Found
+          message: "The email you entered could not be found. Please use a different email and try again."
+        invalid_password: 
+          title: Invalid Password
+          message: "The password you entered was not valid. Please try again"
+        account_disabled:
+          title: Account disabled
+          message: "Please contact us."
+      signup:
+        generic:
+          title: "We were unable to complete your request."
+      password:
+        email_not_found: 
+          title: Email Not Found
+          message: "The account for '%{email}' could not be found. Please use a different email and try again."
+    success:
+      password:
+        title: "Success!"
+        message: "You will receive an email shortly with a link to reset your password"
